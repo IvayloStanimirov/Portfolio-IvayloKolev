@@ -1,0 +1,25 @@
+main {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: sans-serif; }
+
+img {
+  margin: 0;
+  width: 100%; }
+  @media only screen and (min-width: 992px) {
+    img {
+      margin: 100px;
+      width: auto; } }
+
+button {
+  font-size: 20px !important;
+  padding: 20px !important;
+  word-break: break-all;
+  margin: 20px;
+  margin-bottom: 100px; }
+  @media only screen and (min-width: 992px) {
+    button {
+      font-size: 30px !important; } }
+
+/*# sourceMappingURL=contanctme.css.map */

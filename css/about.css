@@ -1,0 +1,23 @@
+body {
+  background-color: #283E51; }
+  body main h1 {
+    font-size: 65px;
+    color: white;
+    padding: 20px;
+    font-weight: bold;
+    margin: 50px 0; }
+  body main p {
+    font-size: 20px;
+    color: white;
+    text-align: left;
+    word-break: break-all; }
+    @media only screen and (min-width: 992px) {
+      body main p {
+        font-size: 25px; } }
+  body main a {
+    font-size: 25px !important;
+    font-weight: bold !important;
+    padding: 20px !important;
+    margin-bottom: 30px; }
+
+/*# sourceMappingURL=about.css.map */

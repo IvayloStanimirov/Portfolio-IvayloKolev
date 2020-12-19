@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Heebo:300,400,500,700,800,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/all.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="scripts/main.js"></script>
+    <title>Ivo.K Resume</title>
+</head>
+
+<body>
+    <!-- This will be shown only when the page is started -->
+    <div id="start-animation-overley" class="overley start-page-overley">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-8">
+                    <!-- WIFI IMG -->
+                    <div class="start-page__img-container justify-content-center">
+                        <div class="radio-wave"></div>
+                        <div class="radio-wave1"></div>
+                        <div class="radio-wave2"></div>
+                        <img src="images/wi-fi-img1.0.1.png" alt="wi-fi-img" class="wi-fi-img">
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-between">
+                <div class="col-4">
+                    <div class="cloud-wrapper" id="cloud-wrapper">
+                        <img src="images/cloud-1.0.2.png" alt="cloud-img" class="cloud-img">
+                    </div>
+                </div>
+                <div class="col-4 canvas-container" id="canvas-container">
+                    <canvas id="myCanvas" height="000"></canvas>
+                </div>
+                <div class="col-4 text-right">
+                    <div class="computer-wrapper" id="computer-wrapper">
+                        <img src="images/computer-img1.png" alt="computer-img" class="computer-img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--END  This will be shown only when the page is started END-->
+    <header>
+        <div class="nav-bar">
+            <div class="container">
+                <div class="row">
+                    <div class="col-5">
+                        <a href="#">
+                            <img src="images/logo.png" alt="LOGO" class="logo">
+                        </a>
+                    </div>
+                    <div class="col-7 ">
+                        <nav class="navbar navbar-expand-sm  navbar-light bg-light">
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar1">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbar1">
+                                <ul class="navbar-nav nav nav-fill w-100">
+                                    <li class="nav-item">
+                                        <a class="nav-link " href="skils.html">Skills</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="contactme.html">Contact me</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="about.html">About</a>
+                                    </li>
+                                </ul>
+                            </div>
+                    </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-6 d-flex">
+                        <h1 class="header-title align-middle"> Hi! I am Ivaylo Kolev - Junior Front End Developer </h1>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <img src="videos/waving-me.gif" class="waving-me"></video>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="pb-5">
+        <section class="more-about-me">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-12">
+                    <h1 class="">More about me</h1>
+                </div>
+                <div class="col-12  col-md-6 pb-5">
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <img src="images/contact-me.jpg" alt="Avatar" style="width:300px;height:300px;">
+                            </div>
+                            <div class="flip-card-back">
+                                <i class="fas fa-phone"></i>
+                                <div class="button_cont" align="center"><a class="example_c" href="contactme.html"  rel="nofollow noopener">Contact me</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <img src="images/about-me.png" alt="Avatar" style="width:300px;height:300px;">
+                            </div>
+                            <div class="flip-card-back">
+                                
+                                <h1>Hey there I am Ivaylo Kolev 22 years old living in Sofia</h1>
+                                <div class="button_cont" align="center"><a class="example_c" href="about.html"  rel="nofollow noopener">More about me here</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    </main>
+    <footer class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <a href="https://www.facebook.com/ivailostanimirov" target="_blank" class="footer-Atag mb-5">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a href="https://twitter.com/IvayloKolev3" class="footer-Atag mb-5" target="_blank">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="https://www.instagram.com/ivoo97/" class="footer-Atag mb-5" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <br class="d-block d-md-none">
+                    <br class="d-block d-md-none">
+                    <a href="https://github.com/IvayloStanimirov" class="footer-Atag mb-5" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/ivaylo-kolev-91439114b/"  class="footer-Atag mb-5" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
